@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>03 - {북극}점</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body{margin: 0}
+		section{width: 100vw; height: 100vh; background: #E6E6E6;}
+		@font-face{font-family: "SMtae-R";
+					src:local(※), url(SMtae-R.otf)format("opentype");}
+		@font-face{font-family: "SDNeoR";
+					src:local(※), url(SDNeoR.ttf)format("truetype");}
+		@font-face{font-family: "SDNeoUL";
+					src:local(※), url(SDNeoUL.ttf)format("truetype");}
+		@font-face{font-family: "SDNeoB";
+					src:local(※), url(SDNeoB.ttf)format("truetype");}
+		.grid{display: grid;
+				grid-template-rows: 12.5vh 12.5vh 12.5vh 12.5vh 12.5vh 12.5vh 12.5vh 12.5vh;
+				grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+				grid-gap: 0px 30px;}
+		.absolute{display: block;position: absolute;}
+		.a{grid-area: 1 / 1 / 9 / 1 ; background:#2FCCF7;z-index:30; }
+		.b{grid-area: 1 / 7 / 9 / 12 ; background:#2FCCF7;z-index:40;}
+		.topic{grid-area: 1 / 3 / 4 / 7 ;
+				font-family: 'SMtae-R';
+			font-size: 7.5em;
+			text-align: right;
+			padding-top:20px;
+			z-index:50;}
+		.card{font-family: 'Kumbh Sans', sans-serif;
+			writing-mode: vertical-lr;
+			font-size: 2em;
+			font-weight: 300;
+			line-height: 1.6;
+			word-spacing: -2px;
+			letter-spacing: -1px;}
+		.def{grid-area: 4 / 2 / 7 / 6 ;
+			font-family: 'SDNeoR';
+			font-size: 1.1em;
+			text-align: left;
+			word-break: keep-all;
+			line-height: 180%;
+			padding-top:20px;
+			z-index:50;}
+		.target { display: inline-block; white-space: nowrap; overflow: hidden;}
+		.small1 { width: 600px;}
+		.small2 { width: 300px;}
+		.small3 { width: 500px;}
+		.topic1circle{grid-area: 1 / 3 / 6 / 7;z-index:0;}
+		.topic1line{grid-area: 5 / 1 / 9 / 5;padding-left:50px;
+			padding-top:60px; z-index:1;}
+		.topic1hott{display: inline;text-align: center;grid-area: 2 / 7 / 6 / 12;z-index:60;}
+	</style>
+</head>
+<body>
+	<section class="grid">
+		<div class="a card target">03 - SCIENCE - {The North Pole/Arctic}Point ; Geographic North Pole or Terrestrial North Pole</div>
+		<div class="topic">{북극}점</div>
+		<img src="topic1circle.png" class="topic1circle small1"></div>
+		<img src="topic1line.png" class="topic1line small2"></div>
+		<div class="def"><font font-weight: bold;>지구의 가장 북쪽 지점<br></font>
+				북극해의 가운데에 있으며 {북극}점 지점의 깊이는 4087 m이다. {북극}점은 지구 최북단 지점으로서, 남극점과 직경으로 정반대 지점에 위치해 있다. 측지학상으로는 북위 90도의 기준이 되며 진북의 방향을 삼는 데도 기준이 된다. {북극}점을 기준으로 하면 어느 방향이든 남쪽을 향해 가리키게 되며, 모든 경선이 만나는 지점이기에 어느 경도이든 북극점이 한 축의 기점이 된다. {북극}점 주변의 위선을 따라 반시계 방향으로 돌면 동쪽을 향하고, 시계 방향으로 돌면 서쪽을 향하게 된다. 그밖에 {북극}점은 북반구의 중앙 지점이기도 하다.</div>
+		<div class="b"></div>
+		<img src="topic1hott.png" class="topic1hott small3"></div>
+	</section>
+</body>
+</html>
